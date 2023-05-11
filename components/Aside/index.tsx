@@ -28,7 +28,7 @@ const AsideComponent = () => {
                 </div>
             </div>
 
-            <div>
+            <div className="grid gap-[45px]">
                 <div
                     className="h-[84px]  bg-primary-blue px-[17.5px] flex space-x-[18px]
                  items-center"
@@ -43,13 +43,13 @@ const AsideComponent = () => {
                         />
                     </div>
                 </div>
-            </div>
 
-            <div className="flex px-[17px] justify-between items-center">
-                <p className="font-[400] text-[16px] leading-[32.58px]">
-                    Logout
-                </p>
-                <FiLogOut size={18} />
+                <div className="flex px-[17px] justify-between items-center">
+                    <p className="font-[400] text-[16px] leading-[32.58px]">
+                        Logout
+                    </p>
+                    <FiLogOut size={18} />
+                </div>
             </div>
         </div>
     );
