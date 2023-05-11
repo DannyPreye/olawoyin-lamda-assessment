@@ -16,7 +16,7 @@ interface CourseCardProps {
 const CourseCard: FC<CourseCardProps> = ({ course }) => {
     return (
         <div
-            className="max-w-[832px] w-[85%] p-[20px] flex flex-wrap 
+            className="max-w-[832px] w-[94%] p-[20px] flex flex-wrap 
          lg:flex-nowrap justify-between items-center bg-[#E6E6E6] gap-[17px]"
         >
             <div className="flex flex-wrap items-center lg:flex-nowrap gap-[17px]  ">

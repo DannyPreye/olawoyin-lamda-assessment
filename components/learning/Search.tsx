@@ -6,7 +6,7 @@ const Search = () => {
     return (
         <div
             className="flex items-stretch justify-between 
-        lg:justify-start gap-0 lg:gap-3 w-[85%] "
+        lg:justify-start gap-0 lg:gap-3 w-[94%] "
         >
             <div
                 className="flex  px-[24px]  py-[16px] border-[1px]
